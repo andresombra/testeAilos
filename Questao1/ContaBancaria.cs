@@ -25,5 +25,20 @@ namespace Questao1
             Saldo = 0.0;
         }
 
+        public void Deposito(double quantia)
+        {
+            Saldo += quantia;
+        }
+
+        public void Saque(double quantia)
+        {
+            Saldo -= quantia + TAXA_SAQUE;
+        }
+
+        public override string ToString()
+        {
+            return $"Conta {Numero}, Titular: {Titular}, Saldo: $ {Saldo.ToString("F2", CultureInfo.InvariantCulture)}";
+        }
+
     }
 }
