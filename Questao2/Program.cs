@@ -3,6 +3,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Questao2.Model;
 
 public class Program
 {
@@ -39,7 +40,7 @@ public class Program
             try
             {
                 string response = await client.GetStringAsync(url);
-                var apiResponse = JsonConvert.DeserializeObject<ApiResponse>(response); // Use JsonConvert for deserialization
+                var apiResponse = JsonConvert.DeserializeObject<ApiResponse>(response); 
 
                 if (apiResponse != null) // Ensure apiResponse is not null
                 {
@@ -65,23 +66,5 @@ public class Program
         while (currentPage <= totalPages);
 
         return totalGoals;
-    }
-
-    public class ApiResponse
-    {
-        public List<FootballMatch> data { get; set; }
-        public int total { get; set; }
-        public int per_page { get; set; }
-        public int page { get; set; }
-        public int total_pages { get; set; }
-    }
-
-    public class FootballMatch
-    {
-        public string team1 { get; set; }
-        public string team2 { get; set; }
-        public string team1goals { get; set; }
-        public string team2goals { get; set; }
-        public int year { get; set; }
-    }
+    }    
 }
