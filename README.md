@@ -1,5 +1,5 @@
-# Observação para esse IdContaCorrente ele foi cadastrado com um espaço apos B6BAFC09
-## B6BAFC09 -6967-ED11-A567-055DFA4A16C9
+## Observação para esse IdContaCorrente **B6BAFC09** ele foi cadastrado com um espaço. 
+## **B6BAFC09 -6967-ED11-A567-055DFA4A16C9**
 ![IdContaCorrente com espaco](https://github.com/user-attachments/assets/db197f77-e313-4f98-9027-d9a583f2de17)
 
 
