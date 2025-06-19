@@ -9,7 +9,6 @@ namespace Questao1
         public string Titular { get; set; }
         public double Saldo { get; private set; }
 
-        // Construtor com depósito inicial
         public ContaBancaria(int numero, string titular, double depositoInicial)
         {
             Numero = numero;
@@ -17,7 +16,6 @@ namespace Questao1
             Saldo = depositoInicial;
         }
 
-        // Construtor sem depósito inicial
         public ContaBancaria(int numero, string titular)
         {
             Numero = numero;
