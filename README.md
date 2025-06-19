@@ -1,3 +1,8 @@
+# Observação para esse IdContaCorrente ele foi cadastrado com um espaço apos B6BAFC09
+## B6BAFC09 -6967-ED11-A567-055DFA4A16C9
+![IdContaCorrente com espaco](https://github.com/user-attachments/assets/db197f77-e313-4f98-9027-d9a583f2de17)
+
+
 # Análise da Arquitetura do Sistema Bancário
 
 Este documento detalha a análise da arquitetura de um sistema bancário, com foco na estrutura do código, dependências e interações dos componentes, conforme descrito no documento de requisitos. Também inclui um diagrama de arquitetura para visualização dos módulos principais e fluxos de dados.
